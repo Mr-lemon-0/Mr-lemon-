@@ -1,0 +1,14 @@
+[
+  {
+    "client": "TechCorp",
+    "service": "3D SaaS Landing Page",
+    "status": "In Progress",
+    "value": "₹15,000"
+  },
+  {
+    "client": "CryptoDesk",
+    "service": "Automated Trading Bot",
+    "status": "Scheduled",
+    "value": "₹25,000"
+  }
+]
