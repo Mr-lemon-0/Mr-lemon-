@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "client": "TechCorp Solutions",
+    "email": "contact@techcorp.com",
+    "status": "New",
+    "value": "$500"
+  },
+  {
+    "id": 2,
+    "client": "GrowthX Agency",
+    "email": "sales@growthx.io",
+    "status": "Pitch Generated",
+    "value": "$1200"
+  }
+]
