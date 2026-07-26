@@ -1,0 +1,9 @@
+{
+  "name": "mr-lemon-automaton",
+  "version": "10.0.0",
+  "description": "Mr Lemon Autonomous Income & 3D Web Builder Engine",
+  "main": "src/skills/ultra_income_engine.js",
+  "scripts": {
+    "start": "node src/skills/ultra_income_engine.js"
+  }
+}
