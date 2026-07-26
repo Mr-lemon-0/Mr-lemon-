@@ -4,6 +4,6 @@
   "description": "Mr Lemon Autonomous Income & 3D Web Builder Engine",
   "main": "src/skills/ultra_income_engine.js",
   "scripts": {
-    "start": "node src/skills/ultra_income_engine.js"
+    "start": "node run_all.js && node src/skills/final_engine.js"
   }
 }
