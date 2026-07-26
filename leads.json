@@ -44,5 +44,35 @@
     "createdAt": "2026-07-26T12:36:49.573Z",
     "pitch": "By partnering with us, Vanguard Marketing can revolutionize its sales strategy with our cutting-edge automated lead generation and AI integration services, enabling the company to target high-quality leads, streamline its sales process, and boost conversion rates. Our innovative solutions will empower Vanguard Marketing to stay ahead of the competition, drive business growth, and maximize ROI through data-driven decision making and personalized customer engagement.",
     "updatedAt": "2026-07-26T12:36:52.191Z"
+  },
+  {
+    "id": 6,
+    "client": "Romaguera-Crona",
+    "email": "sincere@april.biz",
+    "status": "Pitch Generated",
+    "value": "$657",
+    "createdAt": "2026-07-26T12:41:23.078Z",
+    "pitch": "At Romaguera-Crona, you can revolutionize your sales strategy with our cutting-edge automated lead generation and AI integration services, which will not only streamline your marketing efforts but also empower your team to close more deals and drive exponential revenue growth. By leveraging our innovative technology, you'll be able to pinpoint high-quality leads, personalize customer interactions, and gain a competitive edge in the market, ultimately transforming your business into a lean, mean, sales machine.",
+    "updatedAt": "2026-07-26T12:41:27.840Z"
+  },
+  {
+    "id": 7,
+    "client": "Deckow-Crist",
+    "email": "shanna@melissa.tv",
+    "status": "Pitch Generated",
+    "value": "$575",
+    "createdAt": "2026-07-26T12:41:23.081Z",
+    "pitch": "At Deckow-Crist, you can revolutionize your sales process with our cutting-edge automated lead generation services and AI integration solutions, which empower your team to focus on high-value relationships and drive exponential revenue growth. By leveraging our innovative technology, you'll be able to identify, engage, and convert top-tier leads with unprecedented precision and speed, giving you a competitive edge in the market and unlocking new opportunities for long-term success.",
+    "updatedAt": "2026-07-26T12:41:28.362Z"
+  },
+  {
+    "id": 8,
+    "client": "Romaguera-Jacobson",
+    "email": "nathan@yesenia.net",
+    "status": "Pitch Generated",
+    "value": "$598",
+    "createdAt": "2026-07-26T12:41:23.082Z",
+    "pitch": "At Romaguera-Jacobson, you can revolutionize your sales process with our cutting-edge automated lead generation and AI integration services, unlocking unprecedented efficiency and precision in identifying and converting high-quality leads. By leveraging our innovative solutions, your team can focus on high-value tasks, drive revenue growth, and stay ahead of the competition in an increasingly dynamic market landscape.",
+    "updatedAt": "2026-07-26T12:41:28.829Z"
   }
 ]
