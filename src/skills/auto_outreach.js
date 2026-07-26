@@ -14,11 +14,14 @@ async function processLeads() {
 
   for (let lead of leads) {
     if (lead.status === 'New') {
-      console.log(`[AI ENGINE] Generating custom pitch for: ${lead.client}...`);
+      console.log(`[AI ENGINE] Crafting hyper-personalized pitch for: ${lead.client}...`);
       
       try {
-        const prompt = `Write a compelling 2-sentence sales pitch to ${lead.client} offering automated lead generation and AI integration services.`;
-        
+        const prompt = `You are Mr. Lemon, an elite AI Automation & Growth Consultant. 
+Write a short, highly persuasive email pitch to "${lead.client}" (${lead.email}).
+Focus: Show how our AI workflow can automate their client acquisition, cut manual labor by 80%, and scale revenue to ${lead.value}.
+Keep it under 3 punchy sentences with a clear call-to-action asking for a quick 5-min chat. No fluff.`;
+
         const response = await groq.chat.completions.create({
           messages: [{ role: 'user', content: prompt }],
           model: 'llama-3.3-70b-versatile',
@@ -29,9 +32,9 @@ async function processLeads() {
         lead.updatedAt = new Date().toISOString();
         updated = true;
 
-        console.log(`\n--- [PITCH FOR ${lead.client}] ---`);
+        console.log(`\n--- [SMART PITCH FOR ${lead.client}] ---`);
         console.log(lead.pitch);
-        console.log('-----------------------------------\n');
+        console.log('-------------------------------------------\n');
       } catch (err) {
         console.error(`[ERROR] Failed to pitch ${lead.client}:`, err.message);
       }
@@ -40,7 +43,7 @@ async function processLeads() {
 
   if (updated) {
     fs.writeFileSync(LEADS_FILE, JSON.stringify(leads, null, 2));
-    console.log('[LEAD TRACKER] Leads database updated successfully!');
+    console.log('[LEAD TRACKER] Leads database updated with Smart Pitches!');
   } else {
     console.log('[AUTOMATON] No new leads pending for pitch.');
   }
