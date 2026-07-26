@@ -3,8 +3,10 @@
     "id": 1,
     "client": "TechCorp Solutions",
     "email": "contact@techcorp.com",
-    "status": "New",
-    "value": "$500"
+    "status": "Pitch Generated",
+    "value": "$500",
+    "pitch": "By implementing our cutting-edge automated lead generation and AI integration services, TechCorp Solutions can revolutionize its sales pipeline and significantly boost revenue growth through precision-targeted marketing and optimized customer engagement. Our innovative solutions will empower your team to focus on high-value activities, such as closing deals and building relationships, while our AI-driven technology handles the heavy lifting of lead identification, qualification, and nurturing.",
+    "updatedAt": "2026-07-26T12:32:23.682Z"
   },
   {
     "id": 2,
