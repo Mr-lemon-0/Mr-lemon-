@@ -13,7 +13,10 @@ function runAutomatonCycle() {
     console.log('[STEP 2] Running AI Outreach Pipeline...');
     execSync('node src/skills/auto_outreach.js', { stdio: 'inherit' });
 
-    console.log('[STEP 3] Updating Analytics & SUMMARY.md...');
+    console.log('[STEP 3] Dispatching Client Emails...');
+    execSync('node src/skills/email_sender.js', { stdio: 'inherit' });
+
+    console.log('[STEP 4] Updating Analytics & SUMMARY.md...');
     execSync('node src/skills/summary_generator.js', { stdio: 'inherit' });
 
     console.log('==============================================');

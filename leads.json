@@ -3,10 +3,11 @@
     "id": 1,
     "client": "TechCorp Solutions",
     "email": "contact@techcorp.com",
-    "status": "Pitch Generated",
+    "status": "Email Sent",
     "value": "$500",
     "pitch": "By implementing our cutting-edge automated lead generation and AI integration services, TechCorp Solutions can revolutionize its sales pipeline and significantly boost revenue growth through precision-targeted marketing and optimized customer engagement. Our innovative solutions will empower your team to focus on high-value activities, such as closing deals and building relationships, while our AI-driven technology handles the heavy lifting of lead identification, qualification, and nurturing.",
-    "updatedAt": "2026-07-26T12:32:23.682Z"
+    "updatedAt": "2026-07-26T12:32:23.682Z",
+    "sentAt": "2026-07-26T12:42:38.651Z"
   },
   {
     "id": 2,
@@ -19,60 +20,66 @@
     "id": 3,
     "client": "Nexus Alpha Tech",
     "email": "info@nexusalpha.io",
-    "status": "Pitch Generated",
+    "status": "Email Sent",
     "value": "$800",
     "createdAt": "2026-07-26T12:36:49.548Z",
     "pitch": "At Nexus Alpha Tech, our innovative automated lead generation solutions and AI integration services can turbocharge your sales pipeline, delivering high-quality leads and empowering your team to focus on closing deals rather than chasing prospects. By partnering with us, you'll unlock the full potential of AI-driven marketing, maximizing your return on investment and driving sustained business growth through data-driven decision making and precision-targeted customer engagement.",
-    "updatedAt": "2026-07-26T12:36:51.360Z"
+    "updatedAt": "2026-07-26T12:36:51.360Z",
+    "sentAt": "2026-07-26T12:42:38.653Z"
   },
   {
     "id": 4,
     "client": "Starlight Digital",
     "email": "hello@starlightdigital.com",
-    "status": "Pitch Generated",
+    "status": "Email Sent",
     "value": "$1500",
     "createdAt": "2026-07-26T12:36:49.572Z",
     "pitch": "By partnering with us, Starlight Digital can revolutionize its sales strategy with our cutting-edge automated lead generation and AI integration services, unlocking a floodgate of high-quality leads and maximizing conversion rates. Our innovative solutions will empower your team to focus on high-value activities, drive revenue growth, and stay ahead of the competition in an ever-evolving digital landscape.",
-    "updatedAt": "2026-07-26T12:36:51.765Z"
+    "updatedAt": "2026-07-26T12:36:51.765Z",
+    "sentAt": "2026-07-26T12:42:38.653Z"
   },
   {
     "id": 5,
     "client": "Vanguard Marketing",
     "email": "growth@vanguard.co",
-    "status": "Pitch Generated",
+    "status": "Email Sent",
     "value": "$950",
     "createdAt": "2026-07-26T12:36:49.573Z",
     "pitch": "By partnering with us, Vanguard Marketing can revolutionize its sales strategy with our cutting-edge automated lead generation and AI integration services, enabling the company to target high-quality leads, streamline its sales process, and boost conversion rates. Our innovative solutions will empower Vanguard Marketing to stay ahead of the competition, drive business growth, and maximize ROI through data-driven decision making and personalized customer engagement.",
-    "updatedAt": "2026-07-26T12:36:52.191Z"
+    "updatedAt": "2026-07-26T12:36:52.191Z",
+    "sentAt": "2026-07-26T12:42:38.654Z"
   },
   {
     "id": 6,
     "client": "Romaguera-Crona",
     "email": "sincere@april.biz",
-    "status": "Pitch Generated",
+    "status": "Email Sent",
     "value": "$657",
     "createdAt": "2026-07-26T12:41:23.078Z",
     "pitch": "At Romaguera-Crona, you can revolutionize your sales strategy with our cutting-edge automated lead generation and AI integration services, which will not only streamline your marketing efforts but also empower your team to close more deals and drive exponential revenue growth. By leveraging our innovative technology, you'll be able to pinpoint high-quality leads, personalize customer interactions, and gain a competitive edge in the market, ultimately transforming your business into a lean, mean, sales machine.",
-    "updatedAt": "2026-07-26T12:41:27.840Z"
+    "updatedAt": "2026-07-26T12:41:27.840Z",
+    "sentAt": "2026-07-26T12:42:38.655Z"
   },
   {
     "id": 7,
     "client": "Deckow-Crist",
     "email": "shanna@melissa.tv",
-    "status": "Pitch Generated",
+    "status": "Email Sent",
     "value": "$575",
     "createdAt": "2026-07-26T12:41:23.081Z",
     "pitch": "At Deckow-Crist, you can revolutionize your sales process with our cutting-edge automated lead generation services and AI integration solutions, which empower your team to focus on high-value relationships and drive exponential revenue growth. By leveraging our innovative technology, you'll be able to identify, engage, and convert top-tier leads with unprecedented precision and speed, giving you a competitive edge in the market and unlocking new opportunities for long-term success.",
-    "updatedAt": "2026-07-26T12:41:28.362Z"
+    "updatedAt": "2026-07-26T12:41:28.362Z",
+    "sentAt": "2026-07-26T12:42:38.655Z"
   },
   {
     "id": 8,
     "client": "Romaguera-Jacobson",
     "email": "nathan@yesenia.net",
-    "status": "Pitch Generated",
+    "status": "Email Sent",
     "value": "$598",
     "createdAt": "2026-07-26T12:41:23.082Z",
     "pitch": "At Romaguera-Jacobson, you can revolutionize your sales process with our cutting-edge automated lead generation and AI integration services, unlocking unprecedented efficiency and precision in identifying and converting high-quality leads. By leveraging our innovative solutions, your team can focus on high-value tasks, drive revenue growth, and stay ahead of the competition in an increasingly dynamic market landscape.",
-    "updatedAt": "2026-07-26T12:41:28.829Z"
+    "updatedAt": "2026-07-26T12:41:28.829Z",
+    "sentAt": "2026-07-26T12:42:38.655Z"
   }
 ]
