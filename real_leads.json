@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Kyber (YC W23) Is Hiring a Head of Engineering",
+    "link": "https://www.ycombinator.com/companies/kyber/jobs/FGmI8mx-head-of-engineering",
+    "source": "HackerNews Jobs",
+    "dateScraped": "2026-07-26"
+  },
+  {
+    "id": 2,
+    "title": "Bloomy (YC S26) is hiring a founding engineer",
+    "link": "item?id=48995037",
+    "source": "HackerNews Jobs",
+    "dateScraped": "2026-07-26"
+  },
+  {
+    "id": 3,
+    "title": "DrDroid (YC W23) Is Hiring",
+    "link": "https://www.ycombinator.com/companies/drdroid/jobs/w45QcNV-product-engineer-assignment-mandatory",
+    "source": "HackerNews Jobs",
+    "dateScraped": "2026-07-26"
+  },
+  {
+    "id": 4,
+    "title": "Manufact (YC S25) Is Hiring a Senior infra engineer to build the MCP cloud",
+    "link": "https://www.ycombinator.com/companies/manufact/jobs/Dh6PYP5-senior-infrastructure-engineer",
+    "source": "HackerNews Jobs",
+    "dateScraped": "2026-07-26"
+  },
+  {
+    "id": 5,
+    "title": "Adaptional (YC S25) Is Hiring",
+    "link": "https://www.ycombinator.com/companies/adaptional/jobs",
+    "source": "HackerNews Jobs",
+    "dateScraped": "2026-07-26"
+  }
+]
