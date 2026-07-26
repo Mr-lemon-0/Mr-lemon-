@@ -8,19 +8,19 @@ const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 const LEADS_FILE = path.join(__dirname, '../../leads.json');
 
 async function processLeads() {
-  console.log('[AUTOMATON] Scanning leads pipeline...');
+  console.log('[AUTOMATON] Scanning multi-industry leads pipeline...');
   const leads = getLeads();
   let updated = false;
 
   for (let lead of leads) {
     if (lead.status === 'New') {
-      console.log(`[AI ENGINE] Crafting hyper-personalized pitch for: ${lead.client}...`);
+      console.log(`[AI ENGINE] Crafting industry-specific pitch for ${lead.client} (${lead.industry || 'Business'})...`);
       
       try {
-        const prompt = `You are Mr. Lemon, an elite AI Automation & Growth Consultant. 
-Write a short, highly persuasive email pitch to "${lead.client}" (${lead.email}).
-Focus: Show how our AI workflow can automate their client acquisition, cut manual labor by 80%, and scale revenue to ${lead.value}.
-Keep it under 3 punchy sentences with a clear call-to-action asking for a quick 5-min chat. No fluff.`;
+        const prompt = `You are Mr. Lemon, an elite AI Automation Consultant.
+Write a punchy, high-converting 3-sentence cold outreach email to "${lead.client}" in the ${lead.industry || 'general business'} sector.
+Highlight how our tailored AI automation solves their specific industry pain points, saves 15+ hours weekly, and scales revenue to ${lead.value}.
+End with a clear, low-friction CTA for a quick 5-min call.`;
 
         const response = await groq.chat.completions.create({
           messages: [{ role: 'user', content: prompt }],
@@ -32,7 +32,7 @@ Keep it under 3 punchy sentences with a clear call-to-action asking for a quick 
         lead.updatedAt = new Date().toISOString();
         updated = true;
 
-        console.log(`\n--- [SMART PITCH FOR ${lead.client}] ---`);
+        console.log(`\n--- [INDUSTRY PITCH: ${lead.industry || 'General'}] ---`);
         console.log(lead.pitch);
         console.log('-------------------------------------------\n');
       } catch (err) {
@@ -43,9 +43,9 @@ Keep it under 3 punchy sentences with a clear call-to-action asking for a quick 
 
   if (updated) {
     fs.writeFileSync(LEADS_FILE, JSON.stringify(leads, null, 2));
-    console.log('[LEAD TRACKER] Leads database updated with Smart Pitches!');
+    console.log('[LEAD TRACKER] Multi-Industry Pitches Saved!');
   } else {
-    console.log('[AUTOMATON] No new leads pending for pitch.');
+    console.log('[AUTOMATON] No new leads pending.');
   }
 }
 
