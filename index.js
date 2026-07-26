@@ -19,6 +19,9 @@ function runAutomatonCycle() {
     console.log('[STEP 4] Updating Analytics & SUMMARY.md...');
     execSync('node src/skills/summary_generator.js', { stdio: 'inherit' });
 
+    console.log('[STEP 5] Sending Telegram Status Alert...');
+    execSync('node src/skills/telegram_alert.js', { stdio: 'inherit' });
+
     console.log('==============================================');
     console.log('  ✅ AUTOMATON CYCLE COMPLETED SUCCESSFULLY!  ');
     console.log('==============================================\n');
