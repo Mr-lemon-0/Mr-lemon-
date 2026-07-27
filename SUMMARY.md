@@ -1,9 +1,9 @@
 # 🍋 Mr. Lemon (Automaton) - System Summary
 
-**Last Updated:** 7/26/2026, 6:29:43 PM
+**Last Updated:** 7/27/2026, 8:38:22 AM
 
 ## 📊 Pipeline Metrics
-- **Total Active Leads:** 8
+- **Total Active Leads:** 15
 - **Pitches Auto-Generated:** 1
 - **Pending Leads:** 0
 
@@ -19,6 +19,13 @@
 | 6 | Romaguera-Crona | sincere@april.biz | **Email Sent** | $657 |
 | 7 | Deckow-Crist | shanna@melissa.tv | **Email Sent** | $575 |
 | 8 | Romaguera-Jacobson | nathan@yesenia.net | **Email Sent** | $598 |
+| 9 | Robel-Corkery | julianne.oconner@kory.org | **Email Sent** | $2151 |
+| 10 | Keebler LLC | lucio_hettinger@annie.ca | **Email Sent** | $1514 |
+| 11 | Considine-Lockman | karley_dach@jasper.info | **Email Sent** | $2291 |
+| 12 | Johns Group | telly.hoeger@billy.biz | **Email Sent** | $1079 |
+| 13 | Abernathy Group | sherwood@rosamond.me | **Email Sent** | $2095 |
+| 14 | Yost and Sons | chaim_mcdermott@dana.io | **Email Sent** | $1444 |
+| 15 | Hoeger LLC | rey.padberg@karina.biz | **Email Sent** | $1052 |
 
 
 ---
